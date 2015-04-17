@@ -1,0 +1,27 @@
+Audience: started as 7 ppl, ended up as 15-20 as more arrived over the course of the hour.
+
+me: brief outline of astronomy using python. Python switch last five-seven years, libraries now up to date.
+astropy! does time handling, native numpy tables reading-in csv, other formats. Opens .fits files.
+(keeping things v. general as only one other pro astro in audence).
+
+some discussion of various general astronomy: LSST has a Python pipeline, 
+
+Cool hack idea: app for iPad or mobile with ability to show integration improving snr as each image in the stack is taken for a long exposure for amateur telescopes. Show colour, details of target coming in.
+Should be pretty easy to implement actually.
+
+Cool things brought up:
+Js9: ds9 in the browser. http://js9.si.edu/
+MicroObservatory http://mo-www.cfa.harvard.edu/MicroObservatory/ for taking your own images, mine their archive of .fits to play
+
+Explained that an image once taken has to be given a coordinate system - 
+once take an image, can put it into astrometry.net to give it a coordinate system. flickr tagging for astrometry.net to auto-run.
+
+Can we make IRAF easier to install/run/just get to the point of DOING stuff for people? discussed Docker; https://www.vagrantup.com/ looks a better option. Keen pythonista to help set up a Vagrant VM to provide to people to try.
+
+Interest in using planetary images - Michael Fogleman showed an OpenGL wrap he made for HiRise images http://www.michaelfogleman.com/hirise/
+Directed people to http://www.unmannedspaceflight.com/ for supportive community
+Lisa Ballard came just a little late to show off http://pds-rings-tools.seti.org/opus/, has JSON API
+
+Qn about how to get started on pro telescope image analysis. Astropy tutorial for .fits handling.
+CADC http://www.cadc-ccda.hia-iha.nrc-cnrc.gc.ca/en/ for getting images from various telescopes.
+Showed off SSOIS, downloaded an image of Pluto, opened it in ds9.
